@@ -1,0 +1,7 @@
+base: base.yaml
+name: NF-ToN-IoT
+data:
+  path: /scratch/kc01/na3038/NF-ToN-IoT.csv
+  class_groups: {ddos: dos, ransomware: backdoor, mitm: scanning}   # 7 classes as in the paper
+train:
+  baseline_epochs: 3000

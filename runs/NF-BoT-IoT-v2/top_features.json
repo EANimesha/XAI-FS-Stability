@@ -1,0 +1,126 @@
+{
+ "pg": {
+  "Benign": [
+   "MIN_TTL",
+   "MAX_TTL",
+   "CLIENT_TCP_FLAGS",
+   "DURATION_IN",
+   "TCP_WIN_MAX_IN",
+   "L7_PROTO",
+   "NUM_PKTS_UP_TO_128_BYTES",
+   "TCP_WIN_MAX_OUT",
+   "DNS_QUERY_ID",
+   "OUT_PKTS"
+  ],
+  "DDoS": [
+   "TCP_FLAGS",
+   "FTP_COMMAND_RET_CODE",
+   "CLIENT_TCP_FLAGS",
+   "ICMP_IPV4_TYPE",
+   "SRC_TO_DST_SECOND_BYTES",
+   "DST_TO_SRC_SECOND_BYTES",
+   "PROTOCOL",
+   "SHORTEST_FLOW_PKT",
+   "MIN_IP_PKT_LEN",
+   "SERVER_TCP_FLAGS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "CLIENT_TCP_FLAGS",
+   "TCP_FLAGS",
+   "DURATION_IN",
+   "SHORTEST_FLOW_PKT",
+   "TCP_WIN_MAX_IN",
+   "FTP_COMMAND_RET_CODE",
+   "L7_PROTO",
+   "ICMP_TYPE",
+   "DNS_QUERY_TYPE"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "TCP_WIN_MAX_OUT",
+   "SHORTEST_FLOW_PKT",
+   "ICMP_IPV4_TYPE",
+   "MIN_TTL",
+   "FTP_COMMAND_RET_CODE",
+   "NUM_PKTS_1024_TO_1514_BYTES",
+   "IN_PKTS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "CLIENT_TCP_FLAGS",
+   "SERVER_TCP_FLAGS",
+   "LONGEST_FLOW_PKT",
+   "DURATION_OUT",
+   "DURATION_IN",
+   "MAX_IP_PKT_LEN",
+   "TCP_WIN_MAX_IN",
+   "TCP_WIN_MAX_OUT"
+  ]
+ },
+ "gnn": {
+  "Benign": [
+   "CLIENT_TCP_FLAGS",
+   "TCP_WIN_MAX_IN",
+   "MIN_IP_PKT_LEN",
+   "DURATION_OUT",
+   "DURATION_IN",
+   "MIN_TTL",
+   "L7_PROTO",
+   "PROTOCOL",
+   "MAX_TTL",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "DDoS": [
+   "CLIENT_TCP_FLAGS",
+   "TCP_FLAGS",
+   "FTP_COMMAND_RET_CODE",
+   "MIN_IP_PKT_LEN",
+   "ICMP_IPV4_TYPE",
+   "PROTOCOL",
+   "DURATION_IN",
+   "ICMP_TYPE",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_WIN_MAX_OUT"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "TCP_FLAGS",
+   "L7_PROTO",
+   "SHORTEST_FLOW_PKT",
+   "ICMP_TYPE",
+   "TCP_WIN_MAX_IN",
+   "DURATION_IN",
+   "DURATION_OUT",
+   "SERVER_TCP_FLAGS",
+   "MIN_IP_PKT_LEN"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "ICMP_IPV4_TYPE",
+   "DURATION_OUT",
+   "ICMP_TYPE",
+   "TCP_WIN_MAX_OUT",
+   "SHORTEST_FLOW_PKT",
+   "SERVER_TCP_FLAGS",
+   "MAX_TTL"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "ICMP_IPV4_TYPE",
+   "ICMP_TYPE",
+   "TCP_WIN_MAX_IN",
+   "DURATION_IN",
+   "CLIENT_TCP_FLAGS",
+   "SERVER_TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "MAX_TTL"
+  ]
+ }
+}

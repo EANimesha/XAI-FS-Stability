@@ -1,0 +1,53 @@
+# Defaults shared by every dataset. A dataset file overrides any key.
+output_dir: runs
+
+data:
+  attack_col: Attack            # multi-class label column
+  binary_label_col: Label       # dropped
+  test_size: 0.3
+  randomize_src_ip: true        # as in E-GraphSAGE / original TrustGuard
+  drop_na_rows: false           # true = drop rows with any missing/inf feature (false = fill with 0)
+  drop_duplicates: false
+  sample_frac: null             # e.g. 0.1 to subsample (stratified) for a quick run
+  categorical_cols: [TCP_FLAGS, L7_PROTO, PROTOCOL, ICMP_TYPE, ICMP_IPV4_TYPE,
+                     DNS_QUERY_TYPE, FTP_COMMAND_RET_CODE]
+  drop_cols: [FLOW_START_MILLISECONDS, FLOW_END_MILLISECONDS]   # v3 timestamps
+  class_groups: {}              # e.g. {DDoS: DoS}
+
+train:
+  backend: dgl                  # dgl (default) or torch; falls back to torch if DGL is missing
+  seed: 0
+  hidden: 128
+  dropout: 0.2
+  lr: 0.001
+  baseline_epochs: 1000
+  class_weight: balanced        # baseline loss weights: balanced (original) | sqrt | none
+  ova_epochs: 300
+  ova_shared_encoder: true      # true = original TrustGuard design
+  log_every: 50
+
+explain:
+  methods: [pg, gnn]
+  sample_sizes:
+    pg: [10, 25, 50, 100]
+    gnn: [10, 25, 50]
+  seeds: [0, 1, 2]
+  num_hops: 2
+  max_in: 50                    # incoming edges sampled per node in explanation subgraphs
+  pg_epochs: 30
+  pg_lr: 0.01
+  pg_coff_size: 0.01
+  pg_coff_ent: 0.0005
+  gnn_epochs: 200
+  gnn_lr: 0.01
+  gnn_coff_size: 1.0
+  gnn_coff_ent: 0.1
+
+prune:
+  method: pg                    # which explainer's rankings drive selection
+  single_n: 50                  # "single run" ranking = seed 0 at this n (original pipeline)
+  fracs: [0.75, 0.5, 0.25]
+  strategies: [xai_single, xai_consensus, xai_cons_corr, random]
+  random_seeds: [0, 1, 2]
+  train_seeds: [0, 1, 2]         # repeat every OvA training with these seeds (mean +- std)
+  corr_thr: 0.9

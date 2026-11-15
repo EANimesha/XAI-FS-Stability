@@ -1,0 +1,5 @@
+base: base.yaml
+name: NF-ToN-IoT-v3
+data:
+  path: /scratch/kc01/na3038/NF-ToN-IoT-v3-sample.csv   # <- set your path
+  class_groups: {ddos: dos, ransomware: backdoor, mitm: scanning}

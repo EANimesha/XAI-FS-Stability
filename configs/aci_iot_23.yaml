@@ -1,0 +1,15 @@
+base: base.yaml
+name: ACI-IoT-23
+data:
+  path: /g/data/kc01/na3038/sampled_ACI-IoT-23.csv
+  # CICFlowMeter-style columns: check these names against your CSV header
+  src_ip_col: Src IP
+  dst_ip_col: Dst IP
+  src_port_col: Src Port
+  dst_port_col: Dst Port
+  attack_col: Label
+  binary_label_col: Connection Type
+  categorical_cols: [Protocol]
+  drop_cols: [Flow ID, Timestamp]
+train:
+  baseline_epochs: 3000

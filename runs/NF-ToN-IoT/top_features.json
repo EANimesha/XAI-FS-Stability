@@ -1,0 +1,146 @@
+{
+ "pg": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "IN_BYTES",
+   "OUT_PKTS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_BYTES",
+   "IN_BYTES"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS",
+   "IN_PKTS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "password": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_PKTS",
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "xss": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_PKTS",
+   "OUT_BYTES",
+   "IN_PKTS"
+  ]
+ },
+ "gnn": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "IN_BYTES",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "TCP_FLAGS",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "IN_BYTES",
+   "IN_PKTS"
+  ],
+  "dos": [
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "injection": [
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "password": [
+   "TCP_FLAGS",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "PROTOCOL",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "scanning": [
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "xss": [
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "L7_PROTO",
+   "PROTOCOL",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ]
+ }
+}

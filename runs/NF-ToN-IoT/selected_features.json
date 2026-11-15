@@ -1,0 +1,866 @@
+{
+ "all|8|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "password": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "xai_single|4|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "OUT_BYTES"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES"
+  ],
+  "password": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "xai_consensus|4|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_PKTS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "OUT_BYTES"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_BYTES"
+  ],
+  "password": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_BYTES"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "PROTOCOL"
+  ],
+  "xss": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "PROTOCOL"
+  ]
+ },
+ "xai_cons_corr|4|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_PKTS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "OUT_BYTES"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_BYTES"
+  ],
+  "password": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_BYTES"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "PROTOCOL"
+  ],
+  "xss": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "PROTOCOL"
+  ]
+ },
+ "random|4|0": {
+  "Benign": [
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "backdoor": [
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "TCP_FLAGS"
+  ],
+  "dos": [
+   "L7_PROTO",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "injection": [
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "password": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ],
+  "scanning": [
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ]
+ },
+ "random|4|1": {
+  "Benign": [
+   "PROTOCOL",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ],
+  "password": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "TCP_FLAGS"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "xss": [
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "random|4|2": {
+  "Benign": [
+   "IN_BYTES",
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "IN_PKTS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "injection": [
+   "L7_PROTO",
+   "IN_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "password": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "IN_PKTS"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "xai_single|2|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "password": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ]
+ },
+ "xai_consensus|2|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "password": [
+   "L7_PROTO",
+   "TCP_FLAGS"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "xss": [
+   "L7_PROTO",
+   "TCP_FLAGS"
+  ]
+ },
+ "xai_cons_corr|2|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "password": [
+   "L7_PROTO",
+   "TCP_FLAGS"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "xss": [
+   "L7_PROTO",
+   "TCP_FLAGS"
+  ]
+ },
+ "random|2|0": {
+  "Benign": [
+   "L7_PROTO",
+   "IN_PKTS"
+  ],
+  "backdoor": [
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ],
+  "dos": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "injection": [
+   "IN_BYTES",
+   "OUT_BYTES"
+  ],
+  "password": [
+   "IN_BYTES",
+   "OUT_BYTES"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "OUT_PKTS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "TCP_FLAGS"
+  ]
+ },
+ "random|2|1": {
+  "Benign": [
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "IN_PKTS"
+  ],
+  "dos": [
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "OUT_BYTES"
+  ],
+  "password": [
+   "OUT_BYTES",
+   "OUT_PKTS"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "OUT_PKTS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ]
+ },
+ "random|2|2": {
+  "Benign": [
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "backdoor": [
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "dos": [
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "IN_BYTES"
+  ],
+  "password": [
+   "L7_PROTO",
+   "IN_BYTES"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "TCP_FLAGS"
+  ],
+  "xss": [
+   "OUT_BYTES",
+   "TCP_FLAGS"
+  ]
+ },
+ "xai_single|6|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_BYTES",
+   "IN_BYTES"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "IN_BYTES"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS"
+  ],
+  "password": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_BYTES",
+   "IN_BYTES"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "OUT_PKTS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "IN_BYTES",
+   "OUT_PKTS"
+  ]
+ },
+ "xai_consensus|6|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "OUT_PKTS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "password": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_PKTS"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES"
+  ],
+  "xss": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_PKTS"
+  ]
+ },
+ "xai_cons_corr|6|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "password": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_PKTS"
+  ],
+  "scanning": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES"
+  ],
+  "xss": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_PKTS"
+  ]
+ },
+ "random|6|0": {
+  "Benign": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "password": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "random|6|1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "dos": [
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "password": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "random|6|2": {
+  "Benign": [
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "backdoor": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "dos": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "injection": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "password": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "scanning": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "xss": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ }
+}

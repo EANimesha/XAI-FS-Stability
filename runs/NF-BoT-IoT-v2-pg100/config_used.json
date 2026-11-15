@@ -1,0 +1,99 @@
+{
+ "output_dir": "runs",
+ "data": {
+  "attack_col": "Attack",
+  "binary_label_col": "Label",
+  "test_size": 0.3,
+  "randomize_src_ip": true,
+  "drop_na_rows": false,
+  "drop_duplicates": false,
+  "sample_frac": null,
+  "categorical_cols": [
+   "TCP_FLAGS",
+   "L7_PROTO",
+   "PROTOCOL",
+   "ICMP_TYPE",
+   "ICMP_IPV4_TYPE",
+   "DNS_QUERY_TYPE",
+   "FTP_COMMAND_RET_CODE"
+  ],
+  "drop_cols": [
+   "FLOW_START_MILLISECONDS",
+   "FLOW_END_MILLISECONDS"
+  ],
+  "class_groups": {},
+  "path": "/scratch/kc01/na3038/NF-BoT-IoT-v2-sample.csv"
+ },
+ "train": {
+  "backend": "dgl",
+  "seed": 0,
+  "hidden": 128,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "baseline_epochs": 1000,
+  "class_weight": "balanced",
+  "ova_epochs": 300,
+  "ova_shared_encoder": true,
+  "log_every": 50
+ },
+ "explain": {
+  "methods": [
+   "pg"
+  ],
+  "sample_sizes": {
+   "pg": [
+    10,
+    25,
+    50,
+    100
+   ],
+   "gnn": [
+    10,
+    25,
+    50
+   ]
+  },
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "num_hops": 2,
+  "max_in": 50,
+  "pg_epochs": 100,
+  "pg_lr": 0.01,
+  "pg_coff_size": 0.01,
+  "pg_coff_ent": 0.0005,
+  "gnn_epochs": 200,
+  "gnn_lr": 0.01,
+  "gnn_coff_size": 1.0,
+  "gnn_coff_ent": 0.1
+ },
+ "prune": {
+  "method": "pg",
+  "single_n": 50,
+  "fracs": [
+   0.75,
+   0.5,
+   0.25
+  ],
+  "strategies": [
+   "xai_single",
+   "xai_consensus",
+   "xai_cons_corr",
+   "random"
+  ],
+  "random_seeds": [
+   0,
+   1,
+   2
+  ],
+  "train_seeds": [
+   0,
+   1,
+   2
+  ],
+  "corr_thr": 0.9
+ },
+ "name": "NF-BoT-IoT-v2-pg100"
+}

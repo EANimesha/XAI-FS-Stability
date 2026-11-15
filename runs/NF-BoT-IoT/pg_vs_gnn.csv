@@ -1,0 +1,5 @@
+dataset,cls,n,kendall,jaccard_topk
+NF-BoT-IoT,Benign,50,0.6185895741317419,1.0
+NF-BoT-IoT,DoS,50,0.6813851438692469,0.5
+NF-BoT-IoT,Reconnaissance,50,0.8017837257372732,0.2
+NF-BoT-IoT,Theft,50,0.838870492807861,1.0

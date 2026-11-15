@@ -1,0 +1,86 @@
+{
+ "pg": {
+  "Benign": [
+   "PROTOCOL",
+   "TCP_FLAGS",
+   "IN_PKTS",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_BYTES",
+   "IN_BYTES"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "OUT_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "IN_BYTES"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "TCP_FLAGS",
+   "IN_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "gnn": {
+  "Benign": [
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "OUT_BYTES",
+   "IN_BYTES"
+  ],
+  "DoS": [
+   "L7_PROTO",
+   "PROTOCOL",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS",
+   "OUT_PKTS",
+   "IN_PKTS",
+   "OUT_BYTES",
+   "IN_BYTES"
+  ],
+  "Reconnaissance": [
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "FLOW_DURATION_MILLISECONDS",
+   "IN_BYTES"
+  ],
+  "Theft": [
+   "L7_PROTO",
+   "TCP_FLAGS",
+   "PROTOCOL",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "OUT_BYTES",
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ }
+}

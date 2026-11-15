@@ -1,0 +1,4 @@
+base: base.yaml
+name: NF-BoT-IoT-v3
+data:
+  path: /scratch/kc01/na3038/NF-BoT-IoT-v3-sample.csv   # <- set your path

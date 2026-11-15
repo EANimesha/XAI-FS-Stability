@@ -1,0 +1,512 @@
+{
+ "all|8|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "xai_single|6|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "OUT_PKTS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "OUT_PKTS"
+  ]
+ },
+ "xai_consensus|6|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "TCP_FLAGS",
+   "IN_PKTS",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_BYTES"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "OUT_BYTES"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "TCP_FLAGS",
+   "IN_BYTES",
+   "IN_PKTS"
+  ]
+ },
+ "xai_cons_corr|6|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "TCP_FLAGS",
+   "IN_PKTS",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_BYTES"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "TCP_FLAGS",
+   "IN_BYTES",
+   "IN_PKTS"
+  ]
+ },
+ "random|6|0": {
+  "Benign": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ]
+ },
+ "random|6|1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Reconnaissance": [
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ]
+ },
+ "random|6|2": {
+  "Benign": [
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "xai_single|4|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS"
+  ]
+ },
+ "xai_consensus|4|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "TCP_FLAGS",
+   "IN_PKTS",
+   "L7_PROTO"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "TCP_FLAGS"
+  ]
+ },
+ "xai_cons_corr|4|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "TCP_FLAGS",
+   "IN_PKTS",
+   "L7_PROTO"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_PKTS",
+   "IN_PKTS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "TCP_FLAGS"
+  ]
+ },
+ "random|4|0": {
+  "Benign": [
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "DoS": [
+   "L7_PROTO",
+   "IN_BYTES",
+   "OUT_BYTES",
+   "TCP_FLAGS"
+  ],
+  "Reconnaissance": [
+   "L7_PROTO",
+   "IN_PKTS",
+   "TCP_FLAGS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Theft": [
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ]
+ },
+ "random|4|1": {
+  "Benign": [
+   "PROTOCOL",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_PKTS",
+   "OUT_PKTS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "OUT_BYTES",
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ]
+ },
+ "random|4|2": {
+  "Benign": [
+   "IN_BYTES",
+   "OUT_BYTES",
+   "OUT_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "IN_BYTES",
+   "IN_PKTS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "IN_PKTS",
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "Theft": [
+   "L7_PROTO",
+   "IN_BYTES",
+   "IN_PKTS",
+   "FLOW_DURATION_MILLISECONDS"
+  ]
+ },
+ "xai_single|2|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ]
+ },
+ "xai_consensus|2|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "TCP_FLAGS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ]
+ },
+ "xai_cons_corr|2|-1": {
+  "Benign": [
+   "PROTOCOL",
+   "TCP_FLAGS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "L7_PROTO"
+  ]
+ },
+ "random|2|0": {
+  "Benign": [
+   "L7_PROTO",
+   "IN_PKTS"
+  ],
+  "DoS": [
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ],
+  "Reconnaissance": [
+   "L7_PROTO",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Theft": [
+   "IN_BYTES",
+   "OUT_BYTES"
+  ]
+ },
+ "random|2|1": {
+  "Benign": [
+   "IN_PKTS",
+   "TCP_FLAGS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "IN_PKTS"
+  ],
+  "Reconnaissance": [
+   "OUT_PKTS",
+   "TCP_FLAGS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "OUT_BYTES"
+  ]
+ },
+ "random|2|2": {
+  "Benign": [
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "DoS": [
+   "IN_BYTES",
+   "FLOW_DURATION_MILLISECONDS"
+  ],
+  "Reconnaissance": [
+   "OUT_BYTES",
+   "IN_PKTS"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "IN_BYTES"
+  ]
+ }
+}

@@ -1,0 +1,606 @@
+2026-11-14 07:35:17,901 INFO trustguard: Run NF-BoT-IoT on cuda (backend: torch)
+2026-11-14 07:35:17,910 INFO trustguard.data: Reading /home/nimesha/Documents/trustguard_project/datasets/NF-BoT-IoT.csv
+2026-11-14 07:36:38,719 INFO trustguard: Run NF-BoT-IoT on cuda (backend: torch)
+2026-11-14 07:36:38,728 INFO trustguard.data: Reading /workspace/trustguard_project/datasets/NF-BoT-IoT.csv
+2026-11-14 07:36:43,468 INFO trustguard.data: Train: 420066 flows, 433109 nodes | Test: 180029 flows | 8 features | classes ['Benign', 'DoS', 'Reconnaissance', 'Theft']
+2026-11-14 07:36:43,473 INFO trustguard.data: Class counts (train): {'Benign': 9701, 'DoS': 79572, 'Reconnaissance': 329457, 'Theft': 1336}
+2026-11-14 07:36:52,586 INFO trustguard.train: baseline epoch 50 loss 0.5325
+2026-11-14 07:36:59,221 INFO trustguard.train: baseline epoch 100 loss 0.4038
+2026-11-14 07:37:05,853 INFO trustguard.train: baseline epoch 150 loss 0.4112
+2026-11-14 07:37:12,492 INFO trustguard.train: baseline epoch 200 loss 0.3514
+2026-11-14 07:37:19,116 INFO trustguard.train: baseline epoch 250 loss 0.4098
+2026-11-14 07:37:25,761 INFO trustguard.train: baseline epoch 300 loss 0.3212
+2026-11-14 07:37:32,393 INFO trustguard.train: baseline epoch 350 loss 0.3068
+2026-11-14 07:37:39,035 INFO trustguard.train: baseline epoch 400 loss 0.2898
+2026-11-14 07:37:45,685 INFO trustguard.train: baseline epoch 450 loss 0.3116
+2026-11-14 07:37:52,334 INFO trustguard.train: baseline epoch 500 loss 0.2986
+2026-11-14 07:37:58,977 INFO trustguard.train: baseline epoch 550 loss 0.3214
+2026-11-14 07:38:05,627 INFO trustguard.train: baseline epoch 600 loss 0.2972
+2026-11-14 07:38:12,293 INFO trustguard.train: baseline epoch 650 loss 0.2973
+2026-11-14 07:38:18,944 INFO trustguard.train: baseline epoch 700 loss 0.2874
+2026-11-14 07:38:25,588 INFO trustguard.train: baseline epoch 750 loss 0.3082
+2026-11-14 07:38:32,243 INFO trustguard.train: baseline epoch 800 loss 0.3135
+2026-11-14 07:38:38,884 INFO trustguard.train: baseline epoch 850 loss 0.3105
+2026-11-14 07:38:45,534 INFO trustguard.train: baseline epoch 900 loss 0.2824
+2026-11-14 07:38:52,185 INFO trustguard.train: baseline epoch 950 loss 0.2609
+2026-11-14 07:38:58,837 INFO trustguard.train: baseline epoch 1000 loss 0.2744
+2026-11-14 07:39:05,486 INFO trustguard.train: baseline epoch 1050 loss 0.2709
+2026-11-14 07:39:12,149 INFO trustguard.train: baseline epoch 1100 loss 0.2732
+2026-11-14 07:39:18,814 INFO trustguard.train: baseline epoch 1150 loss 0.2926
+2026-11-14 07:39:25,479 INFO trustguard.train: baseline epoch 1200 loss 0.2739
+2026-11-14 07:39:32,131 INFO trustguard.train: baseline epoch 1250 loss 0.2727
+2026-11-14 07:39:38,788 INFO trustguard.train: baseline epoch 1300 loss 0.2716
+2026-11-14 07:39:45,445 INFO trustguard.train: baseline epoch 1350 loss 0.2595
+2026-11-14 07:39:52,098 INFO trustguard.train: baseline epoch 1400 loss 0.2794
+2026-11-14 07:39:58,749 INFO trustguard.train: baseline epoch 1450 loss 0.2479
+2026-11-14 07:40:05,410 INFO trustguard.train: baseline epoch 1500 loss 0.2706
+2026-11-14 07:40:12,050 INFO trustguard.train: baseline epoch 1550 loss 0.2729
+2026-11-14 07:40:18,709 INFO trustguard.train: baseline epoch 1600 loss 0.2662
+2026-11-14 07:40:25,353 INFO trustguard.train: baseline epoch 1650 loss 0.2746
+2026-11-14 07:40:32,004 INFO trustguard.train: baseline epoch 1700 loss 0.2632
+2026-11-14 07:40:38,661 INFO trustguard.train: baseline epoch 1750 loss 0.2500
+2026-11-14 07:40:45,325 INFO trustguard.train: baseline epoch 1800 loss 0.2831
+2026-11-14 07:40:51,976 INFO trustguard.train: baseline epoch 1850 loss 0.2510
+2026-11-14 07:40:58,628 INFO trustguard.train: baseline epoch 1900 loss 0.2627
+2026-11-14 07:41:05,281 INFO trustguard.train: baseline epoch 1950 loss 0.2562
+2026-11-14 07:41:11,929 INFO trustguard.train: baseline epoch 2000 loss 0.2588
+2026-11-14 07:41:18,593 INFO trustguard.train: baseline epoch 2050 loss 0.2683
+2026-11-14 07:41:25,242 INFO trustguard.train: baseline epoch 2100 loss 0.2455
+2026-11-14 07:41:31,877 INFO trustguard.train: baseline epoch 2150 loss 0.2572
+2026-11-14 07:41:38,522 INFO trustguard.train: baseline epoch 2200 loss 0.2388
+2026-11-14 07:41:45,161 INFO trustguard.train: baseline epoch 2250 loss 0.2350
+2026-11-14 07:41:51,826 INFO trustguard.train: baseline epoch 2300 loss 0.2775
+2026-11-14 07:41:58,467 INFO trustguard.train: baseline epoch 2350 loss 0.2593
+2026-11-14 07:42:05,117 INFO trustguard.train: baseline epoch 2400 loss 0.2540
+2026-11-14 07:42:11,774 INFO trustguard.train: baseline epoch 2450 loss 0.2425
+2026-11-14 07:42:18,431 INFO trustguard.train: baseline epoch 2500 loss 0.2403
+2026-11-14 07:42:25,068 INFO trustguard.train: baseline epoch 2550 loss 0.2510
+2026-11-14 07:42:31,724 INFO trustguard.train: baseline epoch 2600 loss 0.2632
+2026-11-14 07:42:38,373 INFO trustguard.train: baseline epoch 2650 loss 0.2371
+2026-11-14 07:42:45,023 INFO trustguard.train: baseline epoch 2700 loss 0.2390
+2026-11-14 07:42:51,675 INFO trustguard.train: baseline epoch 2750 loss 0.2495
+2026-11-14 07:42:58,323 INFO trustguard.train: baseline epoch 2800 loss 0.2448
+2026-11-14 07:43:04,976 INFO trustguard.train: baseline epoch 2850 loss 0.2229
+2026-11-14 07:43:11,622 INFO trustguard.train: baseline epoch 2900 loss 0.2188
+2026-11-14 07:43:18,256 INFO trustguard.train: baseline epoch 2950 loss 0.2130
+2026-11-14 07:43:24,900 INFO trustguard.train: baseline epoch 3000 loss 0.2249
+2026-11-14 07:43:25,035 INFO trustguard: Baseline: recall_w=0.8756 f1_w=0.8946 f1_macro=0.6369
+2026-11-14 07:43:25,035 INFO trustguard:   Benign          P=0.262 R=0.993 F1=0.415 n=4157
+2026-11-14 07:43:25,036 INFO trustguard:   DoS             P=0.783 R=0.982 F1=0.871 n=34103
+2026-11-14 07:43:25,036 INFO trustguard:   Reconnaissance  P=0.998 R=0.847 F1=0.917 n=141197
+2026-11-14 07:43:25,036 INFO trustguard:   Theft           P=0.232 R=0.671 F1=0.345 n=572
+2026-11-14 07:43:25,037 INFO trustguard:   confusion (rows=true, cols=pred, order ['Benign', 'DoS', 'Reconnaissance', 'Theft']):
+        4128        3       22        4
+          16    33497        0      590
+       11589     9305   119626      677
+           1        0      187      384
+2026-11-14 07:43:25,408 INFO trustguard.study: [pg] Benign          n=10   seed=0  0.3s
+2026-11-14 07:43:25,610 INFO trustguard.study: [pg] Benign          n=10   seed=1  0.2s
+2026-11-14 07:43:25,794 INFO trustguard.study: [pg] Benign          n=10   seed=2  0.2s
+2026-11-14 07:43:25,995 INFO trustguard.study: [pg] Benign          n=25   seed=0  0.2s
+2026-11-14 07:43:26,182 INFO trustguard.study: [pg] Benign          n=25   seed=1  0.2s
+2026-11-14 07:43:26,371 INFO trustguard.study: [pg] Benign          n=25   seed=2  0.2s
+2026-11-14 07:43:26,587 INFO trustguard.study: [pg] Benign          n=50   seed=0  0.2s
+2026-11-14 07:43:26,808 INFO trustguard.study: [pg] Benign          n=50   seed=1  0.2s
+2026-11-14 07:43:27,040 INFO trustguard.study: [pg] Benign          n=50   seed=2  0.2s
+2026-11-14 07:43:27,276 INFO trustguard.study: [pg] Benign          n=100  seed=0  0.2s
+2026-11-14 07:43:27,516 INFO trustguard.study: [pg] Benign          n=100  seed=1  0.2s
+2026-11-14 07:43:27,764 INFO trustguard.study: [pg] Benign          n=100  seed=2  0.2s
+2026-11-14 07:43:27,990 INFO trustguard.study: [pg] DoS             n=10   seed=0  0.2s
+2026-11-14 07:43:28,224 INFO trustguard.study: [pg] DoS             n=10   seed=1  0.2s
+2026-11-14 07:43:28,449 INFO trustguard.study: [pg] DoS             n=10   seed=2  0.2s
+2026-11-14 07:43:28,685 INFO trustguard.study: [pg] DoS             n=25   seed=0  0.2s
+2026-11-14 07:43:28,899 INFO trustguard.study: [pg] DoS             n=25   seed=1  0.2s
+2026-11-14 07:43:29,140 INFO trustguard.study: [pg] DoS             n=25   seed=2  0.2s
+2026-11-14 07:43:29,377 INFO trustguard.study: [pg] DoS             n=50   seed=0  0.2s
+2026-11-14 07:43:29,593 INFO trustguard.study: [pg] DoS             n=50   seed=1  0.2s
+2026-11-14 07:43:29,800 INFO trustguard.study: [pg] DoS             n=50   seed=2  0.2s
+2026-11-14 07:43:30,019 INFO trustguard.study: [pg] DoS             n=100  seed=0  0.2s
+2026-11-14 07:43:30,225 INFO trustguard.study: [pg] DoS             n=100  seed=1  0.2s
+2026-11-14 07:43:30,446 INFO trustguard.study: [pg] DoS             n=100  seed=2  0.2s
+2026-11-14 07:43:30,596 INFO trustguard.study: [pg] Reconnaissance  n=10   seed=0  0.1s
+2026-11-14 07:43:30,746 INFO trustguard.study: [pg] Reconnaissance  n=10   seed=1  0.1s
+2026-11-14 07:43:30,900 INFO trustguard.study: [pg] Reconnaissance  n=10   seed=2  0.1s
+2026-11-14 07:43:31,055 INFO trustguard.study: [pg] Reconnaissance  n=25   seed=0  0.1s
+2026-11-14 07:43:31,233 INFO trustguard.study: [pg] Reconnaissance  n=25   seed=1  0.2s
+2026-11-14 07:43:31,393 INFO trustguard.study: [pg] Reconnaissance  n=25   seed=2  0.1s
+2026-11-14 07:43:31,574 INFO trustguard.study: [pg] Reconnaissance  n=50   seed=0  0.2s
+2026-11-14 07:43:31,752 INFO trustguard.study: [pg] Reconnaissance  n=50   seed=1  0.2s
+2026-11-14 07:43:31,932 INFO trustguard.study: [pg] Reconnaissance  n=50   seed=2  0.2s
+2026-11-14 07:43:32,144 INFO trustguard.study: [pg] Reconnaissance  n=100  seed=0  0.2s
+2026-11-14 07:43:32,336 INFO trustguard.study: [pg] Reconnaissance  n=100  seed=1  0.2s
+2026-11-14 07:43:32,529 INFO trustguard.study: [pg] Reconnaissance  n=100  seed=2  0.2s
+2026-11-14 07:43:32,677 INFO trustguard.study: [pg] Theft           n=10   seed=0  0.1s
+2026-11-14 07:43:32,821 INFO trustguard.study: [pg] Theft           n=10   seed=1  0.1s
+2026-11-14 07:43:32,967 INFO trustguard.study: [pg] Theft           n=10   seed=2  0.1s
+2026-11-14 07:43:33,121 INFO trustguard.study: [pg] Theft           n=25   seed=0  0.1s
+2026-11-14 07:43:33,276 INFO trustguard.study: [pg] Theft           n=25   seed=1  0.1s
+2026-11-14 07:43:33,434 INFO trustguard.study: [pg] Theft           n=25   seed=2  0.1s
+2026-11-14 07:43:33,602 INFO trustguard.study: [pg] Theft           n=50   seed=0  0.2s
+2026-11-14 07:43:33,770 INFO trustguard.study: [pg] Theft           n=50   seed=1  0.2s
+2026-11-14 07:43:33,944 INFO trustguard.study: [pg] Theft           n=50   seed=2  0.2s
+2026-11-14 07:43:34,145 INFO trustguard.study: [pg] Theft           n=100  seed=0  0.2s
+2026-11-14 07:43:34,344 INFO trustguard.study: [pg] Theft           n=100  seed=1  0.2s
+2026-11-14 07:43:34,548 INFO trustguard.study: [pg] Theft           n=100  seed=2  0.2s
+2026-11-14 07:43:35,252 INFO trustguard.study: [gnn] Benign          n=10   seed=0  0.7s
+2026-11-14 07:43:36,242 INFO trustguard.study: [gnn] Benign          n=10   seed=1  1.0s
+2026-11-14 07:43:37,398 INFO trustguard.study: [gnn] Benign          n=10   seed=2  1.1s
+2026-11-14 07:43:38,553 INFO trustguard.study: [gnn] Benign          n=25   seed=0  1.1s
+2026-11-14 07:43:39,284 INFO trustguard.study: [gnn] Benign          n=25   seed=1  0.7s
+2026-11-14 07:43:40,035 INFO trustguard.study: [gnn] Benign          n=25   seed=2  0.7s
+2026-11-14 07:43:40,840 INFO trustguard.study: [gnn] Benign          n=50   seed=0  0.8s
+2026-11-14 07:43:41,833 INFO trustguard.study: [gnn] Benign          n=50   seed=1  1.0s
+2026-11-14 07:43:42,655 INFO trustguard.study: [gnn] Benign          n=50   seed=2  0.8s
+2026-11-14 07:43:43,373 INFO trustguard.study: [gnn] DoS             n=10   seed=0  0.7s
+2026-11-14 07:43:44,357 INFO trustguard.study: [gnn] DoS             n=10   seed=1  1.0s
+2026-11-14 07:43:45,547 INFO trustguard.study: [gnn] DoS             n=10   seed=2  1.2s
+2026-11-14 07:43:46,672 INFO trustguard.study: [gnn] DoS             n=25   seed=0  1.1s
+2026-11-14 07:43:47,736 INFO trustguard.study: [gnn] DoS             n=25   seed=1  1.0s
+2026-11-14 07:43:48,515 INFO trustguard.study: [gnn] DoS             n=25   seed=2  0.8s
+2026-11-14 07:43:49,284 INFO trustguard.study: [gnn] DoS             n=50   seed=0  0.8s
+2026-11-14 07:43:49,980 INFO trustguard.study: [gnn] DoS             n=50   seed=1  0.7s
+2026-11-14 07:43:50,756 INFO trustguard.study: [gnn] DoS             n=50   seed=2  0.8s
+2026-11-14 07:43:51,392 INFO trustguard.study: [gnn] Reconnaissance  n=10   seed=0  0.6s
+2026-11-14 07:43:52,017 INFO trustguard.study: [gnn] Reconnaissance  n=10   seed=1  0.6s
+2026-11-14 07:43:52,682 INFO trustguard.study: [gnn] Reconnaissance  n=10   seed=2  0.7s
+2026-11-14 07:43:53,531 INFO trustguard.study: [gnn] Reconnaissance  n=25   seed=0  0.8s
+2026-11-14 07:43:54,409 INFO trustguard.study: [gnn] Reconnaissance  n=25   seed=1  0.9s
+2026-11-14 07:43:55,401 INFO trustguard.study: [gnn] Reconnaissance  n=25   seed=2  1.0s
+2026-11-14 07:43:56,083 INFO trustguard.study: [gnn] Reconnaissance  n=50   seed=0  0.7s
+2026-11-14 07:43:56,742 INFO trustguard.study: [gnn] Reconnaissance  n=50   seed=1  0.6s
+2026-11-14 07:43:57,418 INFO trustguard.study: [gnn] Reconnaissance  n=50   seed=2  0.7s
+2026-11-14 07:43:58,085 INFO trustguard.study: [gnn] Theft           n=10   seed=0  0.6s
+2026-11-14 07:43:58,714 INFO trustguard.study: [gnn] Theft           n=10   seed=1  0.6s
+2026-11-14 07:43:59,387 INFO trustguard.study: [gnn] Theft           n=10   seed=2  0.7s
+2026-11-14 07:44:00,030 INFO trustguard.study: [gnn] Theft           n=25   seed=0  0.6s
+2026-11-14 07:44:00,671 INFO trustguard.study: [gnn] Theft           n=25   seed=1  0.6s
+2026-11-14 07:44:01,308 INFO trustguard.study: [gnn] Theft           n=25   seed=2  0.6s
+2026-11-14 07:44:01,956 INFO trustguard.study: [gnn] Theft           n=50   seed=0  0.6s
+2026-11-14 07:44:02,601 INFO trustguard.study: [gnn] Theft           n=50   seed=1  0.6s
+2026-11-14 07:44:03,266 INFO trustguard.study: [gnn] Theft           n=50   seed=2  0.6s
+2026-11-14 07:44:03,348 INFO trustguard.study: 
+            kendall  jaccard_topk
+method n                         
+gnn    10     0.571         0.642
+       25     0.798         0.792
+       50     0.845         0.833
+pg     10     0.585         0.575
+       25     0.703         0.750
+       50     0.488         0.667
+       100    0.703         0.617
+2026-11-14 07:44:30,157 INFO trustguard.train: ova epoch 50 mean BCE 0.3826
+2026-11-14 07:44:56,688 INFO trustguard.train: ova epoch 100 mean BCE 0.2937
+2026-11-14 07:45:23,241 INFO trustguard.train: ova epoch 150 mean BCE 0.2970
+2026-11-14 07:45:49,734 INFO trustguard.train: ova epoch 200 mean BCE 0.2681
+2026-11-14 07:46:16,239 INFO trustguard.train: ova epoch 250 mean BCE 0.2530
+2026-11-14 07:46:42,761 INFO trustguard.train: ova epoch 300 mean BCE 0.2550
+2026-11-14 07:46:42,904 INFO trustguard.study: all|8|-1|0  F1w=0.8884  F1macro=0.6037  (159s)
+2026-11-14 07:47:09,459 INFO trustguard.train: ova epoch 50 mean BCE 0.3688
+2026-11-14 07:47:35,968 INFO trustguard.train: ova epoch 100 mean BCE 0.3325
+2026-11-14 07:48:02,483 INFO trustguard.train: ova epoch 150 mean BCE 0.3068
+2026-11-14 07:48:29,020 INFO trustguard.train: ova epoch 200 mean BCE 0.2969
+2026-11-14 07:48:55,516 INFO trustguard.train: ova epoch 250 mean BCE 0.2653
+2026-11-14 07:49:22,044 INFO trustguard.train: ova epoch 300 mean BCE 0.2679
+2026-11-14 07:49:22,161 INFO trustguard.study: all|8|-1|1  F1w=0.8883  F1macro=0.6029  (159s)
+2026-11-14 07:49:48,731 INFO trustguard.train: ova epoch 50 mean BCE 0.3678
+2026-11-14 07:50:15,258 INFO trustguard.train: ova epoch 100 mean BCE 0.3110
+2026-11-14 07:50:41,760 INFO trustguard.train: ova epoch 150 mean BCE 0.2740
+2026-11-14 07:51:08,266 INFO trustguard.train: ova epoch 200 mean BCE 0.2808
+2026-11-14 07:51:34,739 INFO trustguard.train: ova epoch 250 mean BCE 0.2905
+2026-11-14 07:52:01,223 INFO trustguard.train: ova epoch 300 mean BCE 0.2750
+2026-11-14 07:52:01,343 INFO trustguard.study: all|8|-1|2  F1w=0.8804  F1macro=0.5904  (159s)
+2026-11-14 07:52:27,881 INFO trustguard.train: ova epoch 50 mean BCE 0.5485
+2026-11-14 07:52:54,379 INFO trustguard.train: ova epoch 100 mean BCE 0.4811
+2026-11-14 07:53:20,866 INFO trustguard.train: ova epoch 150 mean BCE 0.4838
+2026-11-14 07:53:47,380 INFO trustguard.train: ova epoch 200 mean BCE 0.4163
+2026-11-14 07:54:13,865 INFO trustguard.train: ova epoch 250 mean BCE 0.3712
+2026-11-14 07:54:40,376 INFO trustguard.train: ova epoch 300 mean BCE 0.3939
+2026-11-14 07:54:40,499 INFO trustguard.study: xai_single|6|-1|0  F1w=0.9018  F1macro=0.6275  (159s)
+2026-11-14 07:55:07,027 INFO trustguard.train: ova epoch 50 mean BCE 0.5209
+2026-11-14 07:55:33,543 INFO trustguard.train: ova epoch 100 mean BCE 0.4974
+2026-11-14 07:56:00,020 INFO trustguard.train: ova epoch 150 mean BCE 0.4212
+2026-11-14 07:56:26,524 INFO trustguard.train: ova epoch 200 mean BCE 0.4158
+2026-11-14 07:56:53,029 INFO trustguard.train: ova epoch 250 mean BCE 0.3990
+2026-11-14 07:57:19,523 INFO trustguard.train: ova epoch 300 mean BCE 0.3710
+2026-11-14 07:57:19,641 INFO trustguard.study: xai_single|6|-1|1  F1w=0.9024  F1macro=0.6327  (159s)
+2026-11-14 07:57:46,153 INFO trustguard.train: ova epoch 50 mean BCE 0.5159
+2026-11-14 07:58:12,648 INFO trustguard.train: ova epoch 100 mean BCE 0.4606
+2026-11-14 07:58:39,164 INFO trustguard.train: ova epoch 150 mean BCE 0.4068
+2026-11-14 07:59:05,658 INFO trustguard.train: ova epoch 200 mean BCE 0.4558
+2026-11-14 07:59:32,180 INFO trustguard.train: ova epoch 250 mean BCE 0.4381
+2026-11-14 07:59:58,695 INFO trustguard.train: ova epoch 300 mean BCE 0.3805
+2026-11-14 07:59:58,815 INFO trustguard.study: xai_single|6|-1|2  F1w=0.9019  F1macro=0.6282  (159s)
+2026-11-14 08:00:25,334 INFO trustguard.train: ova epoch 50 mean BCE 0.3888
+2026-11-14 08:00:51,829 INFO trustguard.train: ova epoch 100 mean BCE 0.3627
+2026-11-14 08:01:18,332 INFO trustguard.train: ova epoch 150 mean BCE 0.3343
+2026-11-14 08:01:44,841 INFO trustguard.train: ova epoch 200 mean BCE 0.3364
+2026-11-14 08:02:11,366 INFO trustguard.train: ova epoch 250 mean BCE 0.3225
+2026-11-14 08:02:37,856 INFO trustguard.train: ova epoch 300 mean BCE 0.3362
+2026-11-14 08:02:37,982 INFO trustguard.study: xai_consensus|6|-1|0  F1w=0.8867  F1macro=0.6139  (159s)
+2026-11-14 08:03:04,546 INFO trustguard.train: ova epoch 50 mean BCE 0.4642
+2026-11-14 08:03:31,062 INFO trustguard.train: ova epoch 100 mean BCE 0.3667
+2026-11-14 08:03:57,584 INFO trustguard.train: ova epoch 150 mean BCE 0.3691
+2026-11-14 08:04:24,104 INFO trustguard.train: ova epoch 200 mean BCE 0.3366
+2026-11-14 08:04:50,605 INFO trustguard.train: ova epoch 250 mean BCE 0.3158
+2026-11-14 08:05:17,114 INFO trustguard.train: ova epoch 300 mean BCE 0.3206
+2026-11-14 08:05:17,233 INFO trustguard.study: xai_consensus|6|-1|1  F1w=0.8873  F1macro=0.6163  (159s)
+2026-11-14 08:05:43,800 INFO trustguard.train: ova epoch 50 mean BCE 0.3945
+2026-11-14 08:06:10,307 INFO trustguard.train: ova epoch 100 mean BCE 0.3350
+2026-11-14 08:06:36,801 INFO trustguard.train: ova epoch 150 mean BCE 0.3599
+2026-11-14 08:07:03,311 INFO trustguard.train: ova epoch 200 mean BCE 0.3240
+2026-11-14 08:07:29,850 INFO trustguard.train: ova epoch 250 mean BCE 0.3352
+2026-11-14 08:07:56,347 INFO trustguard.train: ova epoch 300 mean BCE 0.3174
+2026-11-14 08:07:56,471 INFO trustguard.study: xai_consensus|6|-1|2  F1w=0.8863  F1macro=0.6068  (159s)
+2026-11-14 08:08:22,994 INFO trustguard.train: ova epoch 50 mean BCE 0.4144
+2026-11-14 08:08:49,548 INFO trustguard.train: ova epoch 100 mean BCE 0.3631
+2026-11-14 08:09:16,085 INFO trustguard.train: ova epoch 150 mean BCE 0.3370
+2026-11-14 08:09:42,632 INFO trustguard.train: ova epoch 200 mean BCE 0.3288
+2026-11-14 08:10:09,142 INFO trustguard.train: ova epoch 250 mean BCE 0.3239
+2026-11-14 08:10:35,627 INFO trustguard.train: ova epoch 300 mean BCE 0.3378
+2026-11-14 08:10:35,747 INFO trustguard.study: xai_cons_corr|6|-1|0  F1w=0.8860  F1macro=0.6113  (159s)
+2026-11-14 08:11:02,313 INFO trustguard.train: ova epoch 50 mean BCE 0.4254
+2026-11-14 08:11:28,825 INFO trustguard.train: ova epoch 100 mean BCE 0.3613
+2026-11-14 08:11:55,343 INFO trustguard.train: ova epoch 150 mean BCE 0.3867
+2026-11-14 08:12:21,846 INFO trustguard.train: ova epoch 200 mean BCE 0.3373
+2026-11-14 08:12:48,373 INFO trustguard.train: ova epoch 250 mean BCE 0.3265
+2026-11-14 08:13:14,882 INFO trustguard.train: ova epoch 300 mean BCE 0.3261
+2026-11-14 08:13:15,003 INFO trustguard.study: xai_cons_corr|6|-1|1  F1w=0.8869  F1macro=0.6175  (159s)
+2026-11-14 08:13:41,569 INFO trustguard.train: ova epoch 50 mean BCE 0.3920
+2026-11-14 08:14:08,137 INFO trustguard.train: ova epoch 100 mean BCE 0.3494
+2026-11-14 08:14:34,661 INFO trustguard.train: ova epoch 150 mean BCE 0.3397
+2026-11-14 08:15:01,171 INFO trustguard.train: ova epoch 200 mean BCE 0.3178
+2026-11-14 08:15:27,681 INFO trustguard.train: ova epoch 250 mean BCE 0.3293
+2026-11-14 08:15:54,195 INFO trustguard.train: ova epoch 300 mean BCE 0.3131
+2026-11-14 08:15:54,312 INFO trustguard.study: xai_cons_corr|6|-1|2  F1w=0.8869  F1macro=0.6097  (159s)
+2026-11-14 08:16:20,845 INFO trustguard.train: ova epoch 50 mean BCE 0.6499
+2026-11-14 08:16:47,373 INFO trustguard.train: ova epoch 100 mean BCE 0.5478
+2026-11-14 08:17:13,873 INFO trustguard.train: ova epoch 150 mean BCE 0.5004
+2026-11-14 08:17:40,382 INFO trustguard.train: ova epoch 200 mean BCE 0.5349
+2026-11-14 08:18:06,891 INFO trustguard.train: ova epoch 250 mean BCE 0.4821
+2026-11-14 08:18:33,410 INFO trustguard.train: ova epoch 300 mean BCE 0.4656
+2026-11-14 08:18:33,537 INFO trustguard.study: random|6|0|0  F1w=0.9071  F1macro=0.5807  (159s)
+2026-11-14 08:19:00,072 INFO trustguard.train: ova epoch 50 mean BCE 0.6161
+2026-11-14 08:19:26,550 INFO trustguard.train: ova epoch 100 mean BCE 0.5238
+2026-11-14 08:19:53,053 INFO trustguard.train: ova epoch 150 mean BCE 0.5053
+2026-11-14 08:20:19,542 INFO trustguard.train: ova epoch 200 mean BCE 0.5253
+2026-11-14 08:20:46,090 INFO trustguard.train: ova epoch 250 mean BCE 0.4626
+2026-11-14 08:21:12,594 INFO trustguard.train: ova epoch 300 mean BCE 0.4523
+2026-11-14 08:21:12,712 INFO trustguard.study: random|6|0|1  F1w=0.9065  F1macro=0.5890  (159s)
+2026-11-14 08:21:39,224 INFO trustguard.train: ova epoch 50 mean BCE 0.6295
+2026-11-14 08:22:05,696 INFO trustguard.train: ova epoch 100 mean BCE 0.5978
+2026-11-14 08:22:32,190 INFO trustguard.train: ova epoch 150 mean BCE 0.5037
+2026-11-14 08:22:58,701 INFO trustguard.train: ova epoch 200 mean BCE 0.5091
+2026-11-14 08:23:25,181 INFO trustguard.train: ova epoch 250 mean BCE 0.4735
+2026-11-14 08:23:51,676 INFO trustguard.train: ova epoch 300 mean BCE 0.4496
+2026-11-14 08:23:51,793 INFO trustguard.study: random|6|0|2  F1w=0.9080  F1macro=0.5938  (159s)
+2026-11-14 08:24:18,324 INFO trustguard.train: ova epoch 50 mean BCE 0.3997
+2026-11-14 08:24:44,823 INFO trustguard.train: ova epoch 100 mean BCE 0.3810
+2026-11-14 08:25:11,305 INFO trustguard.train: ova epoch 150 mean BCE 0.3520
+2026-11-14 08:25:37,820 INFO trustguard.train: ova epoch 200 mean BCE 0.3440
+2026-11-14 08:26:04,301 INFO trustguard.train: ova epoch 250 mean BCE 0.3254
+2026-11-14 08:26:30,803 INFO trustguard.train: ova epoch 300 mean BCE 0.3293
+2026-11-14 08:26:30,920 INFO trustguard.study: random|6|1|0  F1w=0.8834  F1macro=0.6026  (159s)
+2026-11-14 08:26:57,453 INFO trustguard.train: ova epoch 50 mean BCE 0.4741
+2026-11-14 08:27:23,978 INFO trustguard.train: ova epoch 100 mean BCE 0.3729
+2026-11-14 08:27:50,472 INFO trustguard.train: ova epoch 150 mean BCE 0.3874
+2026-11-14 08:28:16,948 INFO trustguard.train: ova epoch 200 mean BCE 0.3722
+2026-11-14 08:28:43,410 INFO trustguard.train: ova epoch 250 mean BCE 0.3397
+2026-11-14 08:29:09,904 INFO trustguard.train: ova epoch 300 mean BCE 0.3368
+2026-11-14 08:29:10,009 INFO trustguard.study: random|6|1|1  F1w=0.8854  F1macro=0.6061  (159s)
+2026-11-14 08:29:36,542 INFO trustguard.train: ova epoch 50 mean BCE 0.4109
+2026-11-14 08:30:03,065 INFO trustguard.train: ova epoch 100 mean BCE 0.3386
+2026-11-14 08:30:29,608 INFO trustguard.train: ova epoch 150 mean BCE 0.3672
+2026-11-14 08:30:56,125 INFO trustguard.train: ova epoch 200 mean BCE 0.3324
+2026-11-14 08:31:22,625 INFO trustguard.train: ova epoch 250 mean BCE 0.3572
+2026-11-14 08:31:49,163 INFO trustguard.train: ova epoch 300 mean BCE 0.3279
+2026-11-14 08:31:49,277 INFO trustguard.study: random|6|1|2  F1w=0.8846  F1macro=0.5987  (159s)
+2026-11-14 08:32:15,837 INFO trustguard.train: ova epoch 50 mean BCE 0.4124
+2026-11-14 08:32:42,377 INFO trustguard.train: ova epoch 100 mean BCE 0.3636
+2026-11-14 08:33:08,899 INFO trustguard.train: ova epoch 150 mean BCE 0.3337
+2026-11-14 08:33:35,439 INFO trustguard.train: ova epoch 200 mean BCE 0.3572
+2026-11-14 08:34:01,953 INFO trustguard.train: ova epoch 250 mean BCE 0.3096
+2026-11-14 08:34:28,455 INFO trustguard.train: ova epoch 300 mean BCE 0.3186
+2026-11-14 08:34:28,570 INFO trustguard.study: random|6|2|0  F1w=0.9020  F1macro=0.6226  (159s)
+2026-11-14 08:34:55,098 INFO trustguard.train: ova epoch 50 mean BCE 0.4089
+2026-11-14 08:35:21,631 INFO trustguard.train: ova epoch 100 mean BCE 0.3617
+2026-11-14 08:35:48,161 INFO trustguard.train: ova epoch 150 mean BCE 0.3792
+2026-11-14 08:36:14,673 INFO trustguard.train: ova epoch 200 mean BCE 0.3350
+2026-11-14 08:36:41,185 INFO trustguard.train: ova epoch 250 mean BCE 0.3119
+2026-11-14 08:37:07,692 INFO trustguard.train: ova epoch 300 mean BCE 0.3184
+2026-11-14 08:37:07,806 INFO trustguard.study: random|6|2|1  F1w=0.9020  F1macro=0.6220  (159s)
+2026-11-14 08:37:34,352 INFO trustguard.train: ova epoch 50 mean BCE 0.3875
+2026-11-14 08:38:00,860 INFO trustguard.train: ova epoch 100 mean BCE 0.3564
+2026-11-14 08:38:27,402 INFO trustguard.train: ova epoch 150 mean BCE 0.3232
+2026-11-14 08:38:53,903 INFO trustguard.train: ova epoch 200 mean BCE 0.3008
+2026-11-14 08:39:20,415 INFO trustguard.train: ova epoch 250 mean BCE 0.3467
+2026-11-14 08:39:46,919 INFO trustguard.train: ova epoch 300 mean BCE 0.3135
+2026-11-14 08:39:47,037 INFO trustguard.study: random|6|2|2  F1w=0.9013  F1macro=0.6196  (159s)
+2026-11-14 08:40:13,540 INFO trustguard.train: ova epoch 50 mean BCE 0.5522
+2026-11-14 08:40:40,033 INFO trustguard.train: ova epoch 100 mean BCE 0.4338
+2026-11-14 08:41:06,512 INFO trustguard.train: ova epoch 150 mean BCE 0.3923
+2026-11-14 08:41:32,998 INFO trustguard.train: ova epoch 200 mean BCE 0.3926
+2026-11-14 08:41:59,490 INFO trustguard.train: ova epoch 250 mean BCE 0.4028
+2026-11-14 08:42:25,969 INFO trustguard.train: ova epoch 300 mean BCE 0.3953
+2026-11-14 08:42:26,079 INFO trustguard.study: xai_single|4|-1|0  F1w=0.9014  F1macro=0.6128  (159s)
+2026-11-14 08:42:52,568 INFO trustguard.train: ova epoch 50 mean BCE 0.5551
+2026-11-14 08:43:19,060 INFO trustguard.train: ova epoch 100 mean BCE 0.5265
+2026-11-14 08:43:45,545 INFO trustguard.train: ova epoch 150 mean BCE 0.4361
+2026-11-14 08:44:12,062 INFO trustguard.train: ova epoch 200 mean BCE 0.4196
+2026-11-14 08:44:38,565 INFO trustguard.train: ova epoch 250 mean BCE 0.3943
+2026-11-14 08:45:05,080 INFO trustguard.train: ova epoch 300 mean BCE 0.3963
+2026-11-14 08:45:05,211 INFO trustguard.study: xai_single|4|-1|1  F1w=0.9009  F1macro=0.6161  (159s)
+2026-11-14 08:45:31,763 INFO trustguard.train: ova epoch 50 mean BCE 0.4998
+2026-11-14 08:45:58,320 INFO trustguard.train: ova epoch 100 mean BCE 0.4512
+2026-11-14 08:46:24,830 INFO trustguard.train: ova epoch 150 mean BCE 0.4181
+2026-11-14 08:46:51,354 INFO trustguard.train: ova epoch 200 mean BCE 0.3975
+2026-11-14 08:47:17,880 INFO trustguard.train: ova epoch 250 mean BCE 0.4279
+2026-11-14 08:47:44,405 INFO trustguard.train: ova epoch 300 mean BCE 0.3841
+2026-11-14 08:47:44,535 INFO trustguard.study: xai_single|4|-1|2  F1w=0.9010  F1macro=0.6168  (159s)
+2026-11-14 08:48:11,107 INFO trustguard.train: ova epoch 50 mean BCE 0.4825
+2026-11-14 08:48:37,686 INFO trustguard.train: ova epoch 100 mean BCE 0.4732
+2026-11-14 08:49:04,270 INFO trustguard.train: ova epoch 150 mean BCE 0.4431
+2026-11-14 08:49:30,849 INFO trustguard.train: ova epoch 200 mean BCE 0.4269
+2026-11-14 08:49:57,410 INFO trustguard.train: ova epoch 250 mean BCE 0.4205
+2026-11-14 08:50:23,970 INFO trustguard.train: ova epoch 300 mean BCE 0.4151
+2026-11-14 08:50:24,092 INFO trustguard.study: xai_consensus|4|-1|0  F1w=0.9039  F1macro=0.6179  (159s)
+2026-11-14 08:50:50,639 INFO trustguard.train: ova epoch 50 mean BCE 0.4792
+2026-11-14 08:51:17,134 INFO trustguard.train: ova epoch 100 mean BCE 0.4562
+2026-11-14 08:51:43,613 INFO trustguard.train: ova epoch 150 mean BCE 0.4451
+2026-11-14 08:52:10,069 INFO trustguard.train: ova epoch 200 mean BCE 0.4453
+2026-11-14 08:52:36,526 INFO trustguard.train: ova epoch 250 mean BCE 0.4381
+2026-11-14 08:53:02,962 INFO trustguard.train: ova epoch 300 mean BCE 0.4207
+2026-11-14 08:53:03,073 INFO trustguard.study: xai_consensus|4|-1|1  F1w=0.9043  F1macro=0.6222  (159s)
+2026-11-14 08:53:29,536 INFO trustguard.train: ova epoch 50 mean BCE 0.4851
+2026-11-14 08:53:55,985 INFO trustguard.train: ova epoch 100 mean BCE 0.4765
+2026-11-14 08:54:22,430 INFO trustguard.train: ova epoch 150 mean BCE 0.4368
+2026-11-14 08:54:48,872 INFO trustguard.train: ova epoch 200 mean BCE 0.4461
+2026-11-14 08:55:15,333 INFO trustguard.train: ova epoch 250 mean BCE 0.4487
+2026-11-14 08:55:41,788 INFO trustguard.train: ova epoch 300 mean BCE 0.4121
+2026-11-14 08:55:41,901 INFO trustguard.study: xai_consensus|4|-1|2  F1w=0.9041  F1macro=0.6224  (159s)
+2026-11-14 08:56:08,362 INFO trustguard.train: ova epoch 50 mean BCE 0.4801
+2026-11-14 08:56:34,805 INFO trustguard.train: ova epoch 100 mean BCE 0.4730
+2026-11-14 08:57:01,257 INFO trustguard.train: ova epoch 150 mean BCE 0.4447
+2026-11-14 08:57:27,721 INFO trustguard.train: ova epoch 200 mean BCE 0.4215
+2026-11-14 08:57:54,189 INFO trustguard.train: ova epoch 250 mean BCE 0.4202
+2026-11-14 08:58:20,646 INFO trustguard.train: ova epoch 300 mean BCE 0.4096
+2026-11-14 08:58:20,759 INFO trustguard.study: xai_cons_corr|4|-1|0  F1w=0.9029  F1macro=0.6118  (159s)
+2026-11-14 08:58:47,254 INFO trustguard.train: ova epoch 50 mean BCE 0.4807
+2026-11-14 08:59:13,703 INFO trustguard.train: ova epoch 100 mean BCE 0.4622
+2026-11-14 08:59:40,157 INFO trustguard.train: ova epoch 150 mean BCE 0.4453
+2026-11-14 09:00:06,617 INFO trustguard.train: ova epoch 200 mean BCE 0.4454
+2026-11-14 09:00:33,070 INFO trustguard.train: ova epoch 250 mean BCE 0.4212
+2026-11-14 09:00:59,538 INFO trustguard.train: ova epoch 300 mean BCE 0.4246
+2026-11-14 09:00:59,652 INFO trustguard.study: xai_cons_corr|4|-1|1  F1w=0.9038  F1macro=0.6125  (159s)
+2026-11-14 09:01:26,127 INFO trustguard.train: ova epoch 50 mean BCE 0.4864
+2026-11-14 09:01:52,585 INFO trustguard.train: ova epoch 100 mean BCE 0.4955
+2026-11-14 09:02:19,020 INFO trustguard.train: ova epoch 150 mean BCE 0.4311
+2026-11-14 09:02:45,475 INFO trustguard.train: ova epoch 200 mean BCE 0.4301
+2026-11-14 09:03:11,919 INFO trustguard.train: ova epoch 250 mean BCE 0.4329
+2026-11-14 09:03:38,355 INFO trustguard.train: ova epoch 300 mean BCE 0.4174
+2026-11-14 09:03:38,471 INFO trustguard.study: xai_cons_corr|4|-1|2  F1w=0.9044  F1macro=0.6204  (159s)
+2026-11-14 09:04:04,945 INFO trustguard.train: ova epoch 50 mean BCE 0.5547
+2026-11-14 09:04:31,402 INFO trustguard.train: ova epoch 100 mean BCE 0.5356
+2026-11-14 09:04:57,883 INFO trustguard.train: ova epoch 150 mean BCE 0.5000
+2026-11-14 09:05:24,378 INFO trustguard.train: ova epoch 200 mean BCE 0.4894
+2026-11-14 09:05:50,848 INFO trustguard.train: ova epoch 250 mean BCE 0.4806
+2026-11-14 09:06:17,334 INFO trustguard.train: ova epoch 300 mean BCE 0.4812
+2026-11-14 09:06:17,453 INFO trustguard.study: random|4|0|0  F1w=0.9175  F1macro=0.6295  (159s)
+2026-11-14 09:06:43,958 INFO trustguard.train: ova epoch 50 mean BCE 0.5391
+2026-11-14 09:07:10,442 INFO trustguard.train: ova epoch 100 mean BCE 0.5099
+2026-11-14 09:07:36,928 INFO trustguard.train: ova epoch 150 mean BCE 0.5022
+2026-11-14 09:08:03,430 INFO trustguard.train: ova epoch 200 mean BCE 0.4908
+2026-11-14 09:08:29,901 INFO trustguard.train: ova epoch 250 mean BCE 0.4718
+2026-11-14 09:08:56,372 INFO trustguard.train: ova epoch 300 mean BCE 0.4895
+2026-11-14 09:08:56,484 INFO trustguard.study: random|4|0|1  F1w=0.9163  F1macro=0.6235  (159s)
+2026-11-14 09:09:22,984 INFO trustguard.train: ova epoch 50 mean BCE 0.5807
+2026-11-14 09:09:49,496 INFO trustguard.train: ova epoch 100 mean BCE 0.6168
+2026-11-14 09:10:15,998 INFO trustguard.train: ova epoch 150 mean BCE 0.4897
+2026-11-14 09:10:42,470 INFO trustguard.train: ova epoch 200 mean BCE 0.4937
+2026-11-14 09:11:08,993 INFO trustguard.train: ova epoch 250 mean BCE 0.4765
+2026-11-14 09:11:35,572 INFO trustguard.train: ova epoch 300 mean BCE 0.4816
+2026-11-14 09:11:35,688 INFO trustguard.study: random|4|0|2  F1w=0.9165  F1macro=0.6250  (159s)
+2026-11-14 09:12:02,268 INFO trustguard.train: ova epoch 50 mean BCE 0.6422
+2026-11-14 09:12:28,731 INFO trustguard.train: ova epoch 100 mean BCE 0.5621
+2026-11-14 09:12:55,174 INFO trustguard.train: ova epoch 150 mean BCE 0.5527
+2026-11-14 09:13:21,727 INFO trustguard.train: ova epoch 200 mean BCE 0.5459
+2026-11-14 09:13:48,330 INFO trustguard.train: ova epoch 250 mean BCE 0.5530
+2026-11-14 09:14:14,922 INFO trustguard.train: ova epoch 300 mean BCE 0.6478
+2026-11-14 09:14:15,032 INFO trustguard.study: random|4|1|0  F1w=0.0714  F1macro=0.2112  (159s)
+2026-11-14 09:14:41,512 INFO trustguard.train: ova epoch 50 mean BCE 0.6672
+2026-11-14 09:15:07,986 INFO trustguard.train: ova epoch 100 mean BCE 0.5711
+2026-11-14 09:15:34,449 INFO trustguard.train: ova epoch 150 mean BCE 0.5647
+2026-11-14 09:16:00,939 INFO trustguard.train: ova epoch 200 mean BCE 0.5491
+2026-11-14 09:16:27,377 INFO trustguard.train: ova epoch 250 mean BCE 0.5454
+2026-11-14 09:16:53,842 INFO trustguard.train: ova epoch 300 mean BCE 0.5365
+2026-11-14 09:16:53,948 INFO trustguard.study: random|4|1|1  F1w=0.9063  F1macro=0.5741  (159s)
+2026-11-14 09:17:20,440 INFO trustguard.train: ova epoch 50 mean BCE 0.5947
+2026-11-14 09:17:46,909 INFO trustguard.train: ova epoch 100 mean BCE 0.5838
+2026-11-14 09:18:13,356 INFO trustguard.train: ova epoch 150 mean BCE 0.5518
+2026-11-14 09:18:39,824 INFO trustguard.train: ova epoch 200 mean BCE 0.5475
+2026-11-14 09:19:06,298 INFO trustguard.train: ova epoch 250 mean BCE 0.5673
+2026-11-14 09:19:32,785 INFO trustguard.train: ova epoch 300 mean BCE 0.5395
+2026-11-14 09:19:32,903 INFO trustguard.study: random|4|1|2  F1w=0.9066  F1macro=0.5757  (159s)
+2026-11-14 09:19:59,392 INFO trustguard.train: ova epoch 50 mean BCE 0.5749
+2026-11-14 09:20:25,855 INFO trustguard.train: ova epoch 100 mean BCE 0.5600
+2026-11-14 09:20:52,319 INFO trustguard.train: ova epoch 150 mean BCE 0.5118
+2026-11-14 09:21:18,767 INFO trustguard.train: ova epoch 200 mean BCE 0.4924
+2026-11-14 09:21:45,218 INFO trustguard.train: ova epoch 250 mean BCE 0.5627
+2026-11-14 09:22:11,681 INFO trustguard.train: ova epoch 300 mean BCE 0.4960
+2026-11-14 09:22:11,797 INFO trustguard.study: random|4|2|0  F1w=0.8806  F1macro=0.5779  (159s)
+2026-11-14 09:22:38,313 INFO trustguard.train: ova epoch 50 mean BCE 0.5850
+2026-11-14 09:23:04,786 INFO trustguard.train: ova epoch 100 mean BCE 0.5394
+2026-11-14 09:23:31,284 INFO trustguard.train: ova epoch 150 mean BCE 0.5140
+2026-11-14 09:23:57,775 INFO trustguard.train: ova epoch 200 mean BCE 0.4787
+2026-11-14 09:24:24,248 INFO trustguard.train: ova epoch 250 mean BCE 0.4718
+2026-11-14 09:24:50,714 INFO trustguard.train: ova epoch 300 mean BCE 0.4942
+2026-11-14 09:24:50,894 INFO trustguard.study: random|4|2|1  F1w=0.8827  F1macro=0.5902  (159s)
+2026-11-14 09:25:17,373 INFO trustguard.train: ova epoch 50 mean BCE 0.6137
+2026-11-14 09:25:43,826 INFO trustguard.train: ova epoch 100 mean BCE 0.5386
+2026-11-14 09:26:10,270 INFO trustguard.train: ova epoch 150 mean BCE 0.5423
+2026-11-14 09:26:36,704 INFO trustguard.train: ova epoch 200 mean BCE 0.5225
+2026-11-14 09:27:03,145 INFO trustguard.train: ova epoch 250 mean BCE 0.4828
+2026-11-14 09:27:29,606 INFO trustguard.train: ova epoch 300 mean BCE 0.4701
+2026-11-14 09:27:29,718 INFO trustguard.study: random|4|2|2  F1w=0.8807  F1macro=0.5783  (159s)
+2026-11-14 09:27:56,139 INFO trustguard.train: ova epoch 50 mean BCE 0.6425
+2026-11-14 09:28:22,494 INFO trustguard.train: ova epoch 100 mean BCE 0.6239
+2026-11-14 09:28:48,845 INFO trustguard.train: ova epoch 150 mean BCE 0.5144
+2026-11-14 09:29:15,212 INFO trustguard.train: ova epoch 200 mean BCE 0.5379
+2026-11-14 09:29:41,616 INFO trustguard.train: ova epoch 250 mean BCE 0.5267
+2026-11-14 09:30:08,019 INFO trustguard.train: ova epoch 300 mean BCE 0.5210
+2026-11-14 09:30:08,133 INFO trustguard.study: xai_single|2|-1|0  F1w=0.8996  F1macro=0.6085  (158s)
+2026-11-14 09:30:34,558 INFO trustguard.train: ova epoch 50 mean BCE 0.6472
+2026-11-14 09:31:00,947 INFO trustguard.train: ova epoch 100 mean BCE 0.6058
+2026-11-14 09:31:27,352 INFO trustguard.train: ova epoch 150 mean BCE 0.5716
+2026-11-14 09:31:53,787 INFO trustguard.train: ova epoch 200 mean BCE 0.5360
+2026-11-14 09:32:20,192 INFO trustguard.train: ova epoch 250 mean BCE 0.5267
+2026-11-14 09:32:46,607 INFO trustguard.train: ova epoch 300 mean BCE 0.5373
+2026-11-14 09:32:46,745 INFO trustguard.study: xai_single|2|-1|1  F1w=0.8994  F1macro=0.6082  (158s)
+2026-11-14 09:33:13,179 INFO trustguard.train: ova epoch 50 mean BCE 0.6277
+2026-11-14 09:33:39,600 INFO trustguard.train: ova epoch 100 mean BCE 0.5219
+2026-11-14 09:34:05,994 INFO trustguard.train: ova epoch 150 mean BCE 0.5395
+2026-11-14 09:34:32,400 INFO trustguard.train: ova epoch 200 mean BCE 0.5264
+2026-11-14 09:34:58,812 INFO trustguard.train: ova epoch 250 mean BCE 0.5467
+2026-11-14 09:35:25,226 INFO trustguard.train: ova epoch 300 mean BCE 0.5038
+2026-11-14 09:35:25,344 INFO trustguard.study: xai_single|2|-1|2  F1w=0.8995  F1macro=0.6048  (158s)
+2026-11-14 09:35:51,788 INFO trustguard.train: ova epoch 50 mean BCE 0.5580
+2026-11-14 09:36:18,195 INFO trustguard.train: ova epoch 100 mean BCE 0.5549
+2026-11-14 09:36:44,614 INFO trustguard.train: ova epoch 150 mean BCE 0.5039
+2026-11-14 09:37:11,004 INFO trustguard.train: ova epoch 200 mean BCE 0.4903
+2026-11-14 09:37:37,402 INFO trustguard.train: ova epoch 250 mean BCE 0.4930
+2026-11-14 09:38:03,820 INFO trustguard.train: ova epoch 300 mean BCE 0.4818
+2026-11-14 09:38:03,932 INFO trustguard.study: xai_consensus|2|-1|0  F1w=0.9030  F1macro=0.6069  (158s)
+2026-11-14 09:38:30,369 INFO trustguard.train: ova epoch 50 mean BCE 0.5504
+2026-11-14 09:38:56,798 INFO trustguard.train: ova epoch 100 mean BCE 0.5713
+2026-11-14 09:39:23,216 INFO trustguard.train: ova epoch 150 mean BCE 0.4860
+2026-11-14 09:39:49,643 INFO trustguard.train: ova epoch 200 mean BCE 0.5078
+2026-11-14 09:40:16,067 INFO trustguard.train: ova epoch 250 mean BCE 0.4758
+2026-11-14 09:40:42,473 INFO trustguard.train: ova epoch 300 mean BCE 0.4795
+2026-11-14 09:40:42,603 INFO trustguard.study: xai_consensus|2|-1|1  F1w=0.9023  F1macro=0.5463  (159s)
+2026-11-14 09:41:09,007 INFO trustguard.train: ova epoch 50 mean BCE 0.5661
+2026-11-14 09:41:35,384 INFO trustguard.train: ova epoch 100 mean BCE 0.5015
+2026-11-14 09:42:01,780 INFO trustguard.train: ova epoch 150 mean BCE 0.4965
+2026-11-14 09:42:28,154 INFO trustguard.train: ova epoch 200 mean BCE 0.4810
+2026-11-14 09:42:54,555 INFO trustguard.train: ova epoch 250 mean BCE 0.4900
+2026-11-14 09:43:20,918 INFO trustguard.train: ova epoch 300 mean BCE 0.4581
+2026-11-14 09:43:21,030 INFO trustguard.study: xai_consensus|2|-1|2  F1w=0.9015  F1macro=0.6042  (158s)
+2026-11-14 09:43:47,437 INFO trustguard.train: ova epoch 50 mean BCE 0.5585
+2026-11-14 09:44:13,828 INFO trustguard.train: ova epoch 100 mean BCE 0.5489
+2026-11-14 09:44:40,214 INFO trustguard.train: ova epoch 150 mean BCE 0.5061
+2026-11-14 09:45:06,601 INFO trustguard.train: ova epoch 200 mean BCE 0.4894
+2026-11-14 09:45:32,982 INFO trustguard.train: ova epoch 250 mean BCE 0.4983
+2026-11-14 09:45:59,377 INFO trustguard.train: ova epoch 300 mean BCE 0.4788
+2026-11-14 09:45:59,489 INFO trustguard.study: xai_cons_corr|2|-1|0  F1w=0.9009  F1macro=0.6025  (158s)
+2026-11-14 09:46:25,923 INFO trustguard.train: ova epoch 50 mean BCE 0.5557
+2026-11-14 09:46:52,339 INFO trustguard.train: ova epoch 100 mean BCE 0.5489
+2026-11-14 09:47:18,739 INFO trustguard.train: ova epoch 150 mean BCE 0.4982
+2026-11-14 09:47:45,117 INFO trustguard.train: ova epoch 200 mean BCE 0.5067
+2026-11-14 09:48:11,493 INFO trustguard.train: ova epoch 250 mean BCE 0.4855
+2026-11-14 09:48:37,885 INFO trustguard.train: ova epoch 300 mean BCE 0.4678
+2026-11-14 09:48:37,995 INFO trustguard.study: xai_cons_corr|2|-1|1  F1w=0.9027  F1macro=0.6140  (158s)
+2026-11-14 09:49:04,408 INFO trustguard.train: ova epoch 50 mean BCE 0.5660
+2026-11-14 09:49:30,786 INFO trustguard.train: ova epoch 100 mean BCE 0.4938
+2026-11-14 09:49:57,157 INFO trustguard.train: ova epoch 150 mean BCE 0.4980
+2026-11-14 09:50:23,565 INFO trustguard.train: ova epoch 200 mean BCE 0.5061
+2026-11-14 09:50:49,955 INFO trustguard.train: ova epoch 250 mean BCE 0.4839
+2026-11-14 09:51:16,337 INFO trustguard.train: ova epoch 300 mean BCE 0.4607
+2026-11-14 09:51:16,451 INFO trustguard.study: xai_cons_corr|2|-1|2  F1w=0.9030  F1macro=0.6070  (158s)
+2026-11-14 09:51:42,882 INFO trustguard.train: ova epoch 50 mean BCE 0.6934
+2026-11-14 09:52:09,267 INFO trustguard.train: ova epoch 100 mean BCE 0.6660
+2026-11-14 09:52:35,670 INFO trustguard.train: ova epoch 150 mean BCE 0.6492
+2026-11-14 09:53:02,052 INFO trustguard.train: ova epoch 200 mean BCE 0.6828
+2026-11-14 09:53:28,425 INFO trustguard.train: ova epoch 250 mean BCE 0.6773
+2026-11-14 09:53:54,817 INFO trustguard.train: ova epoch 300 mean BCE 0.6372
+2026-11-14 09:53:54,930 INFO trustguard.study: random|2|0|0  F1w=0.9103  F1macro=0.5695  (158s)
+2026-11-14 09:54:21,338 INFO trustguard.train: ova epoch 50 mean BCE 0.7328
+2026-11-14 09:54:47,731 INFO trustguard.train: ova epoch 100 mean BCE 0.7029
+2026-11-14 09:55:14,119 INFO trustguard.train: ova epoch 150 mean BCE 0.6627
+2026-11-14 09:55:40,535 INFO trustguard.train: ova epoch 200 mean BCE 0.6481
+2026-11-14 09:56:06,906 INFO trustguard.train: ova epoch 250 mean BCE 0.6800
+2026-11-14 09:56:33,278 INFO trustguard.train: ova epoch 300 mean BCE 0.6545
+2026-11-14 09:56:33,387 INFO trustguard.study: random|2|0|1  F1w=0.8783  F1macro=0.5391  (158s)
+2026-11-14 09:56:59,799 INFO trustguard.train: ova epoch 50 mean BCE 0.7134
+2026-11-14 09:57:26,184 INFO trustguard.train: ova epoch 100 mean BCE 0.6811
+2026-11-14 09:57:52,587 INFO trustguard.train: ova epoch 150 mean BCE 0.6518
+2026-11-14 09:58:18,964 INFO trustguard.train: ova epoch 200 mean BCE 0.6592
+2026-11-14 09:58:45,360 INFO trustguard.train: ova epoch 250 mean BCE 0.6686
+2026-11-14 09:59:11,771 INFO trustguard.train: ova epoch 300 mean BCE 0.6415
+2026-11-14 09:59:11,881 INFO trustguard.study: random|2|0|2  F1w=0.8802  F1macro=0.5457  (158s)
+2026-11-14 09:59:38,291 INFO trustguard.train: ova epoch 50 mean BCE 0.8235
+2026-11-14 10:00:04,672 INFO trustguard.train: ova epoch 100 mean BCE 0.7814
+2026-11-14 10:00:31,082 INFO trustguard.train: ova epoch 150 mean BCE 0.8195
+2026-11-14 10:00:57,466 INFO trustguard.train: ova epoch 200 mean BCE 0.7215
+2026-11-14 10:01:23,849 INFO trustguard.train: ova epoch 250 mean BCE 0.7015
+2026-11-14 10:01:50,241 INFO trustguard.train: ova epoch 300 mean BCE 0.6721
+2026-11-14 10:01:50,357 INFO trustguard.study: random|2|1|0  F1w=0.8394  F1macro=0.4900  (158s)
+2026-11-14 10:02:16,771 INFO trustguard.train: ova epoch 50 mean BCE 0.8571
+2026-11-14 10:02:43,132 INFO trustguard.train: ova epoch 100 mean BCE 0.8482
+2026-11-14 10:03:09,523 INFO trustguard.train: ova epoch 150 mean BCE 0.7949
+2026-11-14 10:03:35,908 INFO trustguard.train: ova epoch 200 mean BCE 0.7631
+2026-11-14 10:04:02,298 INFO trustguard.train: ova epoch 250 mean BCE 0.7320
+2026-11-14 10:04:28,693 INFO trustguard.train: ova epoch 300 mean BCE 0.6736
+2026-11-14 10:04:28,806 INFO trustguard.study: random|2|1|1  F1w=0.8345  F1macro=0.4533  (158s)
+2026-11-14 10:04:55,196 INFO trustguard.train: ova epoch 50 mean BCE 0.8389
+2026-11-14 10:05:21,610 INFO trustguard.train: ova epoch 100 mean BCE 0.7773
+2026-11-14 10:05:47,962 INFO trustguard.train: ova epoch 150 mean BCE 0.7354
+2026-11-14 10:06:14,370 INFO trustguard.train: ova epoch 200 mean BCE 0.6817
+2026-11-14 10:06:40,752 INFO trustguard.train: ova epoch 250 mean BCE 0.6937
+2026-11-14 10:07:07,109 INFO trustguard.train: ova epoch 300 mean BCE 0.6569
+2026-11-14 10:07:07,224 INFO trustguard.study: random|2|1|2  F1w=0.8401  F1macro=0.5017  (158s)
+2026-11-14 10:07:33,620 INFO trustguard.train: ova epoch 50 mean BCE 0.7362
+2026-11-14 10:07:59,995 INFO trustguard.train: ova epoch 100 mean BCE 0.7167
+2026-11-14 10:08:26,409 INFO trustguard.train: ova epoch 150 mean BCE 0.6968
+2026-11-14 10:08:52,793 INFO trustguard.train: ova epoch 200 mean BCE 0.6946
+2026-11-14 10:09:19,174 INFO trustguard.train: ova epoch 250 mean BCE 0.7016
+2026-11-14 10:09:45,590 INFO trustguard.train: ova epoch 300 mean BCE 0.6843
+2026-11-14 10:09:45,701 INFO trustguard.study: random|2|2|0  F1w=0.9057  F1macro=0.5517  (158s)
+2026-11-14 10:10:12,100 INFO trustguard.train: ova epoch 50 mean BCE 0.7323
+2026-11-14 10:10:38,514 INFO trustguard.train: ova epoch 100 mean BCE 0.7316
+2026-11-14 10:11:04,900 INFO trustguard.train: ova epoch 150 mean BCE 0.6985
+2026-11-14 10:11:31,295 INFO trustguard.train: ova epoch 200 mean BCE 0.7124
+2026-11-14 10:11:57,679 INFO trustguard.train: ova epoch 250 mean BCE 0.6583
+2026-11-14 10:12:24,067 INFO trustguard.train: ova epoch 300 mean BCE 0.6760
+2026-11-14 10:12:24,176 INFO trustguard.study: random|2|2|1  F1w=0.8934  F1macro=0.5213  (158s)
+2026-11-14 10:12:50,608 INFO trustguard.train: ova epoch 50 mean BCE 0.7228
+2026-11-14 10:13:16,986 INFO trustguard.train: ova epoch 100 mean BCE 0.7168
+2026-11-14 10:13:43,386 INFO trustguard.train: ova epoch 150 mean BCE 0.7017
+2026-11-14 10:14:09,775 INFO trustguard.train: ova epoch 200 mean BCE 0.7234
+2026-11-14 10:14:36,168 INFO trustguard.train: ova epoch 250 mean BCE 0.6865
+2026-11-14 10:15:02,554 INFO trustguard.train: ova epoch 300 mean BCE 0.6845
+2026-11-14 10:15:02,664 INFO trustguard.study: random|2|2|2  F1w=0.8950  F1macro=0.5377  (158s)
+2026-11-14 10:15:02,702 INFO trustguard.study: 
+per-class F1:
+                    f1_Benign  f1_DoS  f1_Reconnaissance  f1_Theft
+strategy      frac                                                
+all           1.00       36.8    87.0               90.7      25.1
+random        0.25       34.4    75.8               92.2       6.9
+              0.50       37.4    80.7               82.4      21.1
+              0.75       39.4    86.8               92.2      23.1
+xai_cons_corr 0.25       38.7    86.7               92.8      24.9
+              0.50       40.9    86.9               92.9      25.2
+              0.75       35.5    87.0               90.8      31.8
+xai_consensus 0.25       38.7    86.7               92.9      16.0
+              0.50       41.0    87.0               93.0      27.4
+              0.75       35.8    87.1               90.9      31.3
+xai_single    0.25       37.0    86.7               92.6      26.7
+              0.50       39.9    86.9               92.6      26.7
+              0.75       39.9    86.9               92.7      32.2
+2026-11-14 10:15:02,781 INFO trustguard.study: 
+                   recall_w          f1_w        f1_macro       
+                       mean    std   mean    std     mean    std
+strategy      frac                                              
+all           1.00    86.25   0.69  88.57   0.46    59.90   0.74
+random        0.25    85.49   5.37  87.52   2.98    52.33   3.60
+              0.50    81.13  23.05  80.87  27.69    55.39  13.06
+              0.75    88.21   1.63  89.78   1.03    60.39   1.51
+xai_cons_corr 0.25    88.86   0.16  90.22   0.11    60.78   0.58
+              0.50    89.08   0.12  90.37   0.08    61.49   0.48
+              0.75    86.42   0.11  88.66   0.05    61.28   0.41
+xai_consensus 0.25    88.93   0.13  90.23   0.07    58.58   3.43
+              0.50    89.15   0.03  90.41   0.02    62.09   0.25
+              0.75    86.46   0.08  88.68   0.05    61.23   0.49
+xai_single    0.25    88.43   0.01  89.95   0.01    60.72   0.20
+              0.50    88.68   0.04  90.11   0.03    61.52   0.21
+              0.75    88.81   0.04  90.20   0.03    62.95   0.29
+2026-11-14 10:37:57,805 INFO trustguard: Run NF-BoT-IoT on cuda (backend: torch)
+2026-11-14 10:37:57,814 INFO trustguard.data: Loading cached graphs from runs/NF-BoT-IoT/graphs_seed0.pt
+2026-11-14 10:37:58,565 INFO trustguard: Loaded baseline from runs/NF-BoT-IoT/baseline.pt

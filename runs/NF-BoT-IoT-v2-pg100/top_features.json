@@ -1,0 +1,64 @@
+{
+ "pg": {
+  "Benign": [
+   "MAX_TTL",
+   "MIN_TTL",
+   "DURATION_IN",
+   "CLIENT_TCP_FLAGS",
+   "L7_PROTO",
+   "NUM_PKTS_UP_TO_128_BYTES",
+   "TCP_WIN_MAX_OUT",
+   "TCP_WIN_MAX_IN",
+   "SRC_TO_DST_AVG_THROUGHPUT",
+   "DST_TO_SRC_AVG_THROUGHPUT"
+  ],
+  "DDoS": [
+   "FTP_COMMAND_RET_CODE",
+   "TCP_FLAGS",
+   "CLIENT_TCP_FLAGS",
+   "ICMP_IPV4_TYPE",
+   "SRC_TO_DST_SECOND_BYTES",
+   "MIN_IP_PKT_LEN",
+   "SHORTEST_FLOW_PKT",
+   "PROTOCOL",
+   "DST_TO_SRC_SECOND_BYTES",
+   "SERVER_TCP_FLAGS"
+  ],
+  "DoS": [
+   "PROTOCOL",
+   "ICMP_TYPE",
+   "TCP_WIN_MAX_IN",
+   "SHORTEST_FLOW_PKT",
+   "DURATION_IN",
+   "TCP_FLAGS",
+   "CLIENT_TCP_FLAGS",
+   "L7_PROTO",
+   "FTP_COMMAND_RET_CODE",
+   "SERVER_TCP_FLAGS"
+  ],
+  "Reconnaissance": [
+   "PROTOCOL",
+   "L7_PROTO",
+   "TCP_WIN_MAX_OUT",
+   "TCP_FLAGS",
+   "SHORTEST_FLOW_PKT",
+   "ICMP_IPV4_TYPE",
+   "MIN_TTL",
+   "FTP_COMMAND_RET_CODE",
+   "IN_PKTS",
+   "NUM_PKTS_512_TO_1024_BYTES"
+  ],
+  "Theft": [
+   "PROTOCOL",
+   "TCP_WIN_MAX_IN",
+   "TCP_WIN_MAX_OUT",
+   "MAX_IP_PKT_LEN",
+   "ICMP_IPV4_TYPE",
+   "MAX_TTL",
+   "DURATION_OUT",
+   "DURATION_IN",
+   "LONGEST_FLOW_PKT",
+   "SERVER_TCP_FLAGS"
+  ]
+ }
+}

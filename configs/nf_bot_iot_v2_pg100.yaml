@@ -1,0 +1,6 @@
+base: base.yaml
+name: NF-BoT-IoT-v2-pg100
+data:
+  path: /scratch/kc01/na3038/NF-BoT-IoT-v2-sample.csv
+explain:
+  {methods: [pg], pg_epochs: 100}

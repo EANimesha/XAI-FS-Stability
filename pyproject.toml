@@ -1,0 +1,12 @@
+[project]
+name = "trustguard"
+version = "1.0.0"
+description = "TrustGuard: XAI-driven feature refinement for GNN-based IoT intrusion detection"
+requires-python = ">=3.9"
+dependencies = ["torch>=2.1", "numpy", "pandas", "scikit-learn", "scipy", "pyyaml", "matplotlib"]
+
+[project.scripts]
+trustguard = "trustguard.cli:main"
+
+[tool.setuptools]
+packages = ["trustguard"]

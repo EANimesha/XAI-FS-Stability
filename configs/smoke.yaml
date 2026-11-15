@@ -1,0 +1,13 @@
+# tiny synthetic run for checking the install (see tests/make_synthetic.py)
+base: base.yaml
+name: smoke
+output_dir: runs_smoke
+data:
+  path: tests/synthetic_nf.csv
+train: {baseline_epochs: 30, ova_epochs: 5, log_every: 10}
+explain:
+  sample_sizes: {pg: [5, 10], gnn: [5]}
+  seeds: [0, 1]
+  pg_epochs: 5
+  gnn_epochs: 10
+prune: {fracs: [0.5], random_seeds: [0]}

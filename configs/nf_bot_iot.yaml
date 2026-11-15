@@ -1,0 +1,7 @@
+base: base.yaml
+name: NF-BoT-IoT
+data:
+  path: /home/nimesha/Documents/trustguard_project/datasets/NF-BoT-IoT.csv
+  class_groups: {DDoS: DoS}     # 4 classes as in the paper
+train:
+  baseline_epochs: 3000
